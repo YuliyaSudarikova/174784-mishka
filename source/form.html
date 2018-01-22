@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+  <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p> -->
+  <div class="site-wrapper">
+
+    <header class="page-header">
+      <a class="page-header__logo" href="#">
+        <img class="page-header__logo-image" src="http://placehold.it/150x100" width="150" height="150" alt="Mishka – игрушки ручной работы" />
+      </a>
+      <nav class="main-nav">
+        <div class="content-wrapper">
+          <button class="main-nav__toggle" type="button">Бургер</button>
+          <ul class="main-nav__list site-list">
+            <li class="site-list__list-item site-list__list-item--active">Каталог товаров</li>
+            <li class="site-list__list-item site-list__list-item--active">Вязание на заказ</li>
+          </ul>
+          <ul class="main-nav__list user-buy">
+            <li class="user-buy__item site-search">Поиск по сайту</li>
+            <li class="user-buy__item cart-shop">Корзина: пока пуста</li>"
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-catalog">
+      <div class="content-wrapper">
+        <section class="catalog-main">
+          <h1 class="catalog-main__caption">Вязание на заказ</h1>
+        </section>
+
+        <div class="welcome">
+          <p class="welcome__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+        </div>
+
+        <section class="order-form">
+          <div class="content-wrapper">
+            <form method="post "action="https://echo.htmlacademy.ru">
+              <div class="order-form__item">
+                <p class="order-form__name">Тип</p>
+                <div class="order-form__field accessories">
+                  <label for="accessories" class="order-form__field-name">Аксессуар для интерьера</label>
+                  <input id="accessories" class="order-form__field-input order-form__field-input--active " type="radio" name="type" checked/>
+                </div>
+                <div class="order-form__field accessories">
+                  <label for="child-toy" class="order-form__field-name">Детская игрушка</label>
+                  <input id="child-toy" class="order-form__field-input" type="radio" name="type"/>
+                </div>
+              </div>
+
+              <div class="order-form__item">
+                <p class="order-form__name">Цвет</p>
+                <div class="order-form__field color">
+                  <label for="white" class="order-form__field-name">Белый</label>
+                  <input id="white" class="order-form__field-input color__field color__field--active" type="checkbox" checked/>
+                </div>
+                <div class="order-form__field color">
+                  <label for="grey" class="order-form__field-name">Серый</label>
+                  <input id="grey" class="order-form__field-input color__field" type="checkbox" checked/>
+                </div>
+                <div class="order-form__field color">
+                  <label for="tiffany" class="order-form__field-name">"Тиффани"</label>
+                  <input id="tiffany" class="order-form__field-input color__field" type="checkbox"/>
+                </div>
+                <div class="order-form__field color">
+                  <label for="black" class="order-form__field-name">Черный</label>
+                  <input id="black" class="order-form__field-input color__field" type="checkbox"/>
+                </div>
+                <div class="order-form__field color">
+                  <label for="pink" class="order-form__field-name">Розовый</label>
+                  <input id="pink" class="order-form__field-input color__field" type="checkbox"/>
+                </div>
+                <div class="order-form__field color">
+                  <label for="orange" class="order-form__field-name">Оранжевый</label>
+                  <input id="orange" class="order-form__field-input color__field" type="checkbox"/>
+                </div>
+              </div>
+
+              <div class="order-form__item user-info">
+                <p class="user-info__name">ФИО</p>
+                <div class="user-info__item">
+                  <label for="name" class="user-info__label">Имя:</label>
+                  <input id="name" class="user-info__field" type="text" placeholder="Введите ваше имя*"/>
+                </div>
+                <div class="user-info__item">
+                  <label for="first-name" class="user-info__label">Фамилия:</label>
+                  <input id="first-name" class="user-info__field" type="text" placeholder="Укажите фамилию*"/>
+                </div>
+                <div class="user-info__item">
+                  <label for="second-name" class="user-info__label">Отчество:</label>
+                  <input id="second-name" class="user-info__field" type="text" placeholder="Отчество, если желаете"/>
+                </div>
+
+                <div class="user-info__item">
+                  <label for="tel" class="user-info__label user-info__label--line">Тел</label>
+                  <input id="tel" class="user-info__field" type="tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*"/>
+                </div>
+                <div class="user-info__item">
+                  <label for="email" class="user-info__label user-info__label--line">E-mail</label>
+                  <input id="email" class="user-info__field" type="email" placeholder="Ваш Email*"/>
+                </div>
+                <div class="user-info__item">
+                  <label for="comment" class="user-info__label user-info__label--line">Доп</label>
+                  <textarea id="comment" class="user-info__field" name="text" rows="7" placeholder="Опишите все ваши пожелания к заказу"/>
+                </div>
+                <small class="user-info__note">
+                  <sup>*</sup> — приведённые данные ложь
+                </small>
+              </div>
+
+              <div class="send-form">
+                <div class="content-wrapper">
+                  <a class="button" href="#">Отправить заказ</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <footer class="page-footer">
+    <div class="content-wrapper">
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vk" href="#">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--fb" href="#">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--insta" href="#">Мы в Инстаграме</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="copyright__link" href="#">
+          <img class="copyright__logo" src="http://placehold.it/150x100" width="150" height="100" alt="HTML Academy" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
