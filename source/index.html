@@ -41,21 +41,31 @@
 
     <main class="page-main">
       <div class="content-wrapper">
-        <a class="page-main__link" href="#">
-          <div class="product-card">
+        <div class="page-main__item">
+          <div class="product-card page-main__card">
             <h2 class="product-card__name">Вязаные корзинки</h2>
             <p class="product-card__status">Товар недели</p>
             <p class="product-card__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-            <p class="product-card__features product-card__features--color">"Тиффани"/серый</p>
-            <p class="product-card__features product-card__features--diameter">25 см</p>
-            <p class="product-card__features product-card__features--height">15 см</p>
+            <table class="product-card__features-list">
+              <tr>
+                <td class="product-card__features-name">Цвет</td>
+                <td class="product-card__features-value">"Тиффани"/серый</td>
+              </tr>
+              <tr>
+                <td class="product-card__features-name">Диаметр</td>
+                <td class="product-card__features-value">25см</td>
+              </tr>
+              <tr>
+                <td class="product-card__features-name">Высота</td>
+                <td class="product-card__features-value">15см</td>
+              </tr>
+            </table>
             <img class="product-card__image" src="http://placehold.it/150x100" width="150" height="100" alt="cart"/>
             <p class="product-card__price">990 руб.</p>
             <a href="#" class="button product-card__button">Заказать</a>
           </div>
-        </a>
+        </div>
       </div>
-
 
       <div class="decor-line"></div>
 
@@ -85,9 +95,9 @@
               <div class="reviews__user-name">
                 <a class="reviews__author-link" href="#">@misssssiskras</a>
               </div>
-              <button class="reviews__back" type="button">Предыдущий отзыв</button>
-              <button class="reviews__next" type="button">Следующий отзыв</button>
             </blockquote>
+            <button class="reviews__back" type="button">Предыдущий отзыв</button>
+            <button class="reviews__next" type="button">Следующий отзыв</button>
           </div>
           <a class="reviews__write button" href="#">Написать</a>
         </div>
@@ -97,19 +107,19 @@
 
       <section class="contacts">
         <div class="content-wrapper">
+          <h2 class="contacts__caption">Контакты</h2>
           <div class="contacts__text">
-            <h2 class="contacts__caption">Контакты</h2>
             <p class="contacts__email">e-mail:</p>
             <a class="contacts__email--link"href="#">info@mimimishkashop.ru</a>
-            <p class="contacts__email">адрес:</p>
-            <a class="contacts__email--address"href="#">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</a>
+            <p class="contacts__address">адрес:</p>
+            <a class="contacts__address--link"href="#">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</a>
           </div>
         </div>
       </section>
 
       <section class="map">
         <div class="map__item">
-          <img class="map__item" src="http://placehold.it/150x100" width="150" height="100" alt="map"/>
+          <img class="map__image" src="http://placehold.it/150x100" width="150" height="100" alt="map"/>
         </div>
       </section>
 
