@@ -1,0 +1,43 @@
+@import "color.scss";
+
+body {
+  min-width: 320px;
+  font-family: 'OpenSans', sans-serif;
+  color: $text-color;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 260px;
+}
+
+@import "page-header.scss";
+@import "header-main.scss";
+@import "article.scss";
+@import "page-main.scss";
+@import "product-card.scss";
+@import "about-us.scss";
+@import "advantage-list.scss";
+@import "reviews.scss";
+@import "reviews-pagination.scss";
+@import "contacts.scss";
+@import "map.scss";
+@import "feedback.scss";
+@import "page-footer.scss";
+@import "social.scss";
+@import "copyright.scss";
+@import "main-nav.scss";
+
+
+.button {
+  padding: 16px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  border: 2px solid $text-color;
+  color: $text-color;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+}

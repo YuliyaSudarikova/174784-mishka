@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p> -->
-  <div class="site-wrapper">
 
     <header class="page-header">
       <a class="page-header__logo" href="#">
-        <img class="page-header__logo-image" src="http://placehold.it/150x100" width="150" height="150" alt="Mishka – игрушки ручной работы" />
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="150" height="150" alt="Mishka – игрушки ручной работы" />
       </a>
       <nav class="main-nav">
         <div class="content-wrapper">
-          <button class="main-nav__toggle" type="button">Бургер</button>
+          <button class="main-nav__toggle" type="button"></button>
           <ul class="main-nav__list site-list">
             <li class="site-list__list-item site-list__list-item--active">Каталог товаров</li>
             <li class="site-list__list-item site-list__list-item--active">Вязание на заказ</li>
@@ -28,7 +28,9 @@
     </header>
 
     <section class="header-main">
-      <h1 class="header-main__caption">Милые штуки ручной работы для дома</h1>
+      <div class="content-wrapper">
+        <h1 class="header-main__caption">Милые штуки ручной работы для дома</h1>
+      </div>
       <div class="article header-main__article">
         <div class="article__item article__item--decor">
           <a class="article__link" href="#">Предметы интерьера</a>
@@ -47,21 +49,21 @@
             <p class="product-card__status">Товар недели</p>
             <p class="product-card__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
             <table class="product-card__features-list">
-              <tr>
-                <td class="product-card__features-name">Цвет</td>
+              <tr class="product-card__features-line">
+                <td class="product-card__features-name">Цвет:</td>
                 <td class="product-card__features-value">"Тиффани"/серый</td>
               </tr>
-              <tr>
-                <td class="product-card__features-name">Диаметр</td>
-                <td class="product-card__features-value">25см</td>
+              <tr class="product-card__features-line">
+                <td class="product-card__features-name">Диаметр:</td>
+                <td class="product-card__features-value">25 см</td>
               </tr>
-              <tr>
-                <td class="product-card__features-name">Высота</td>
-                <td class="product-card__features-value">15см</td>
+              <tr class="product-card__features-line">
+                <td class="product-card__features-name">Высота:</td>
+                <td class="product-card__features-value">15 см</td>
               </tr>
             </table>
-            <img class="product-card__image" src="http://placehold.it/150x100" width="150" height="100" alt="cart"/>
-            <p class="product-card__price">990 руб.</p>
+            <img class="product-card__image" src="/img/triple-set-mobile@1x.jpg" width="100%" height="100%" alt="cart"/>
+            <p class="product-card__price">Цена: 990 руб.</p>
             <a href="#" class="button product-card__button">Заказать</a>
           </div>
         </div>
@@ -96,8 +98,10 @@
                 <a class="reviews__author-link" href="#">@misssssiskras</a>
               </div>
             </blockquote>
-            <button class="reviews__back" type="button">Предыдущий отзыв</button>
-            <button class="reviews__next" type="button">Следующий отзыв</button>
+            <div class="reviews-pagination reviews__btns">
+              <button class="reviews-pagination__btn reviews-pagination__btn--back" type="button"></button>
+              <button class="reviews-pagination__btn reviews-pagination__btn--next" type="button"></button>
+            </div>
           </div>
           <a class="reviews__write button" href="#">Написать</a>
         </div>
@@ -110,50 +114,51 @@
           <h2 class="contacts__caption">Контакты</h2>
           <div class="contacts__text">
             <p class="contacts__email">e-mail:</p>
-            <a class="contacts__email contacts__email--link"href="#">info@mimimishkashop.ru</a>
+            <a class="contacts__info contacts__info--email" href="#">info@mimimishkashop.ru</a>
+          </div>
+          <div class="contacts__text">
             <p class="contacts__address">адрес:</p>
-            <a class="contacts__address contacts__address--link"href="#">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</a>
+            <a class="contacts__info contacts__info--address" href="#">г. Санкт-Петербург,<br /> ул. Большая Конюшенная, д. 19/8, офис 101</a>
           </div>
         </div>
       </section>
-
-      <section class="map">
-        <div class="map__item">
-          <img class="map__image" src="http://placehold.it/150x100" width="150" height="100" alt="map"/>
-        </div>
-      </section>
-
-      <div class="feedback">
-        <div class="content-wrapper">
-          <a class="feedback__item button" href="#">Напишите нам</a>
-        </div>
-      </div>
     </main>
-  </div>
 
-  <footer class="page-footer">
-    <div class="content-wrapper">
-      <div class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vk" href="#">Мы в Вконтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--fb" href="#">Мы в Фейсбуке</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--insta" href="#">Мы в Инстаграме</a>
-          </li>
-        </ul>
+    <section class="map">
+      <div class="map__item">
+        <img class="map__image" src="img/map-mobile@1x.jpg" width="320" height="457" alt="map"/>
       </div>
-      <div class="page-footer__copyright copyright">
-        <b class="copyright__text">Разработано:</b>
-        <a class="copyright__link" href="#">
-          <img class="copyright__logo" src="http://placehold.it/150x100" width="150" height="100" alt="HTML Academy" />
-        </a>
+    </section>
+
+    <div class="feedback">
+      <div class="content-wrapper">
+        <a class="feedback__item button" href="#">Напишите нам</a>
       </div>
     </div>
-  </footer>
+
+    <footer class="page-footer">
+      <div class="content-wrapper">
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--insta" href="#"></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--fb" href="#"></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__link" href="#">
+            <img class="copyright__logo" src="img/htmlacademy.svg" width="150" height="100" alt="HTML Academy" />
+          </a>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
