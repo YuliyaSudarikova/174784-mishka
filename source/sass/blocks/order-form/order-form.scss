@@ -1,0 +1,44 @@
+.order-form {
+
+}
+
+.order-form__item {
+
+}
+
+.order-form__name {
+  display: block;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  color: $company-color;
+
+}
+
+.order-form__field {
+  display: block;
+  // &::after {
+  //   content: "";
+  //   display: table;
+  //   clear: both;
+  //   height: 1px;
+  //   width: 100%;
+  //   border: 1px solid $company-color;
+  //   position: absolute;
+  //   top: 10px;
+  // }
+}
+
+.order-form__field-name {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $black;
+}
+
+.order-form__field-input {
+
+    &--active {
+
+    }
+}

@@ -1,5 +1,3 @@
-@import "color.scss";
-
 .product-card {
   background-position: $white;
   border: 1px solid grey;
@@ -19,7 +17,7 @@
   font-weight: 700;
   line-height: 20px;
   text-transform: uppercase;
-  color: $article-color;
+  color: $company-color;
 
 }
 

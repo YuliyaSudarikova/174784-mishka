@@ -9,29 +9,34 @@
   <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p> -->
 
 
-    <header class="page-header">
-      <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="150" height="150" alt="Mishka – игрушки ручной работы" />
-      </a>
-      <nav class="main-nav">
-        <div class="content-wrapper">
-          <button class="main-nav__toggle" type="button"></button>
-          <ul class="main-nav__list site-list">
-            <li class="site-list__list-item site-list__list-item--active">Каталог товаров</li>
-            <li class="site-list__list-item site-list__list-item--active">Вязание на заказ</li>
-          </ul>
-          <ul class="main-nav__list user-buy">
-            <li class="user-buy__item site-search">Поиск по сайту</li>
-            <li class="user-buy__item cart-shop">Корзина: пока пуста</li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+  <header class="page-header">
+    <a class="page-header__logo" href="#">
+      <img class="page-header__logo-image" src="img/logo-mobile.svg" width="150" height="150" alt="Mishka – игрушки ручной работы" />
+    </a>
+    <nav class="main-nav">
+      <div class="content-wrapper">
+        <button class="main-nav__toggle" type="button"></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__list-item site-list__list-item--active">
+            <a class="site-list__item-link" href="/catalog.html">Каталог товаров</a>
+          </li>
+          <li class="site-list__list-item site-list__list-item--active">
+            <a class="site-list__item-link" href="#">Вязание на заказ</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-buy">
+          <li class="user-buy__item site-search"><a class="site-list__item-link" href="#">Поиск по сайту</a></li>
+          <li class="user-buy__item cart-shop"><a class="site-list__item-link" href="#">Корзина: пока пуста</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
 
     <main class="page-catalog">
       <div class="content-wrapper">
-        <section class="catalog-main">
-          <h1 class="catalog-main__caption">Каталог товаров</h1>
+        <section class="page-caption-block catalog-main">
+          <h1 class="page-caption catalog-main__caption">Каталог товаров</h1>
         </section>
 
         <div class="catalog-card">
@@ -97,7 +102,7 @@
 
               <p class="catalog__item-description catalog__item-description--video">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
               <div class="catalog__button">
-                <a href="#" class="button catalog__item-button">Сделать заказ</a>
+                <a href="form.html" class="button catalog__item-button">Сделать заказ</a>
               </div>
             </div>
           </div>

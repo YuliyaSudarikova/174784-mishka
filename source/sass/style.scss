@@ -1,15 +1,6 @@
 @import "color.scss";
+@import "utilities.scss";
 
-body {
-  min-width: 320px;
-  font-family: 'OpenSans', sans-serif;
-  color: $text-color;
-}
-
-.content-wrapper {
-  width: auto;
-  margin: 0 auto;
-}
 
 @import "page-header.scss";
 @import "header-main.scss";
@@ -26,21 +17,29 @@ body {
 @import "page-footer.scss";
 @import "social.scss";
 @import "copyright.scss";
-@import "main-nav.scss";
+
+@import "blocks/main-nav/main-nav.scss";
+@import "blocks/main-nav/site-list.scss";
+
+
 @import "blocks/catalog-card/catalog-main.scss";
 @import "blocks/catalog-card/catalog-card.scss";
 @import "blocks/catalog-card/catalog.scss";
 
 
-.button {
-  padding: 16px;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 20px;
-  border: 2px solid $text-color;
+@import "welcome.scss";
+@import "blocks/order-form/order-form.scss";
+@import "blocks/order-form/accessories.scss";
+@import "blocks/order-form/user-info.scss";
+
+
+
+
+
+
+
+body {
+  min-width: 320px;
+  font-family: 'OpenSans', sans-serif;
   color: $text-color;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  box-sizing: border-box;
 }

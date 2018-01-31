@@ -1,0 +1,23 @@
+.site-list {
+
+}
+
+.site-list__list-item,
+.user-buy__item
+ {
+  border-top: 1px solid $light-grey;
+  border-bottom: 1px solid $light-grey;
+  padding: 31px 0;
+
+  &--active {
+
+  }
+}
+
+.site-list__item-link {
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black;
+}

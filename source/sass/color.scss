@@ -1,18 +1,18 @@
 $header-color: #ffffff;
-$footer-color-bg: #f1f1f1;
+$bg-block: #f1f1f1; //серый фон пд заголовками страниц
 
-$text-color: #444444;
+$text-color: #444444; //темно-серый
 
-$light-grey: #ececec;
+$light-grey: #ececec; //светло-серый
 
 $article-icon: #3bb09d;
-$article-color: #63d1bb;
+$company-color: #63d1bb; //мятный цвет
 
 $white: #ffffff;
 $black: #000000;
 
 
-$icon-video: #63d1bb;
+$icon-video: $company-color; //зеленый цвет иконки видео
 
-$icon-color: #d3d2d2;
-$icon-color-hover: $icon-video;
+$icon-color: #d3d2d2; //серый цвет иконок
+$icon-color-hover: $company-color; // цвет иконок при наведении

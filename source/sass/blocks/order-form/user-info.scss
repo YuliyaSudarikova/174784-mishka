@@ -1,0 +1,44 @@
+.user-info {
+
+}
+
+.user-info__name {
+
+}
+
+.user-info__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.user-info__label {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.user-info__field {
+  border: none;
+  border-bottom: 2px solid $black;
+  padding: 10px;
+
+    &--comment {
+      border: 2px solid $black;
+    }
+}
+
+.user-info__note {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  color: $text-color;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 300;
+  color: $light-grey;
+}

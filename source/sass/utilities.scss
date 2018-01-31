@@ -1,0 +1,30 @@
+.content-wrapper {
+  width: auto;
+  margin: 0 auto;
+}
+
+.page-caption-block {
+  min-height: 177px;
+  background-color: $bg-block;
+  padding: 12px;
+}
+
+.page-caption {
+  font-size: 27px;
+  line-height: 30px;
+}
+
+
+.button {
+  display: block;
+  padding: 16px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  border: 2px solid $text-color;
+  color: $text-color;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+}
