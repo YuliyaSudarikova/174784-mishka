@@ -7,8 +7,8 @@ body {
 }
 
 .content-wrapper {
+  width: auto;
   margin: 0 auto;
-  max-width: 260px;
 }
 
 @import "page-header.scss";
@@ -27,6 +27,9 @@ body {
 @import "social.scss";
 @import "copyright.scss";
 @import "main-nav.scss";
+@import "blocks/catalog-card/catalog-main.scss";
+@import "blocks/catalog-card/catalog-card.scss";
+@import "blocks/catalog-card/catalog.scss";
 
 
 .button {
