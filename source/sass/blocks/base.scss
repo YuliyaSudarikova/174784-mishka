@@ -1,3 +1,11 @@
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  font-family: 'OpenSans', sans-serif;
+  color: $text-color;
+}
+
 .content-wrapper {
   width: auto;
   margin: 0 auto;
@@ -14,6 +22,13 @@
   line-height: 30px;
 }
 
+.icon {
+  fill: $icon-video;
+}
+
+.pic {
+  fill: $icon-color;
+}
 
 .button {
   display: block;
@@ -27,4 +42,12 @@
   text-transform: uppercase;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 300;
+  color: $light-grey;
 }

@@ -1,14 +1,10 @@
-@import "color.scss";
-
-
 .contacts {
   border: 1px solid grey;
   display: flex;
 }
 
-.contacts__caption {
-
-}
+// .contacts__caption {
+// }
 
 .contacts__text {
   display: flex;
@@ -29,10 +25,9 @@
   color: $text-color;
   text-decoration: none;
 
-	  &--email {
-	    border-bottom: 1px solid $company-color;
-	  }
-    &--address {
-
-    }
+  &--email {
+    border-bottom: 1px solid $company-color;
+  }
+  // &--address {
+  // }
 }

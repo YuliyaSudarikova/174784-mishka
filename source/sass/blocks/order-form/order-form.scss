@@ -1,18 +1,16 @@
-.order-form {
-
-}
-
-.order-form__item {
-
-}
+// .order-form {
+// }
+//
+// .order-form__item {
+// }
 
 .order-form__name {
   display: block;
   font-size: 17px;
   line-height: 16px;
   font-weight: 700;
+  text-transform: uppercase;
   color: $company-color;
-
 }
 
 .order-form__field {
@@ -37,8 +35,7 @@
 }
 
 .order-form__field-input {
-
-    &--active {
-
-    }
+  // &--active {
+  //
+  // }
 }
