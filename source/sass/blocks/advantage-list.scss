@@ -12,63 +12,63 @@
   color: $text-color;
 
   &--ecology::before {
-    content: '';
+    content: "";
     display: table;
     clear: both;
     width: 33px;
     height: 37px;
     margin-bottom: 20px;
-    background: url('/img/icon-feature-flower.svg') no-repeat center;
+    background: url("/img/icon-feature-flower.svg") no-repeat center;
     fill: #3bb09d;
   }
 
   &--style::before {
-    content: '';
+    content: "";
     display: table;
     clear: both;
     width: 47px;
     height: 28px;
     margin-bottom: 20px;
-    background: url('/img/icon-feature-money.svg') no-repeat center;
+    background: url("/img/icon-feature-money.svg") no-repeat center;
   }
 
   &--likes::before {
-    content: '';
+    content: "";
     display: table;
     clear: both;
     width: 33px;
     height: 28px;
     margin-bottom: 20px;
-    background: url('/img/icon-feature-heart.svg') no-repeat center;
+    background: url("/img/icon-feature-heart.svg") no-repeat center;
   }
 
   &--handmade::before {
-    content: '';
+    content: "";
     display: table;
     clear: both;
     width: 34px;
     height: 34px;
     margin-bottom: 20px;
-    background: url('/img/icon-feature-ball.svg') no-repeat center;
+    background: url("/img/icon-feature-ball.svg") no-repeat center;
   }
 
   &--native::before {
-    content: '';
+    content: "";
     display: table;
     clear: both;
     width: 49px;
     height: 54px;
     margin-bottom: 20px;
-    background: url('/img/icon-feature-rocket.svg') no-repeat center;
+    background: url("/img/icon-feature-rocket.svg") no-repeat center;
   }
 
   &--present::before {
-    content: '';
+    content: "";
     display: table;
     clear: both;
     width: 34px;
     height: 32px;
     margin-bottom: 20px;
-    background: url('/img/icon-feature-gift.svg') no-repeat center;
+    background: url("/img/icon-feature-gift.svg") no-repeat center;
   }
 }

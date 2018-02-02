@@ -8,11 +8,11 @@
   padding: 30px;
 
   &--decor {
-    background: $company-color url('/img/icon-interior.svg') no-repeat center right;
+    background: $company-color url("/img/icon-interior.svg") no-repeat center right;
   }
 
   &--toys {
-    background: darken($company-color, 5%) url('/img/icon-toy.svg') no-repeat center right;
+    background: darken($company-color, 5%) url("/img/icon-toy.svg") no-repeat center right;
   }
 }
 
