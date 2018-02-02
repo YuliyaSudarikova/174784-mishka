@@ -1,0 +1,33 @@
+.contacts {
+  border: 1px solid grey;
+  display: flex;
+}
+
+// .contacts__caption {
+// }
+
+.contacts__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  // flex-wrap: wrap;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.contacts__address,
+.contacts__email {
+  display: block;
+}
+
+.contacts__info {
+  display: block;
+  color: $text-color;
+  text-decoration: none;
+
+  &--email {
+    border-bottom: 1px solid $company-color;
+  }
+  // &--address {
+  // }
+}

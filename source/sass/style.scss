@@ -1,0 +1,30 @@
+@import "variables/variables.scss";
+@import "blocks/base.scss";
+//index
+@import "blocks/page-header.scss";
+@import "blocks/header-main.scss";
+@import "blocks/article.scss";
+@import "blocks/page-main.scss";
+@import "blocks/product-card.scss";
+@import "blocks/about-us.scss";
+@import "blocks/advantage-list.scss";
+@import "blocks/reviews.scss";
+@import "blocks/reviews-pagination.scss";
+@import "blocks/contacts.scss";
+@import "blocks/map.scss";
+@import "blocks/feedback.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";
+//nav-menu
+@import "blocks/main-nav/main-nav.scss";
+@import "blocks/main-nav/site-list.scss";
+//catalog
+@import "blocks/catalog-card/catalog-main.scss";
+@import "blocks/catalog-card/catalog-card.scss";
+@import "blocks/catalog-card/catalog.scss";
+//form
+@import "blocks/welcome.scss";
+@import "blocks/order-form/order-form.scss";
+@import "blocks/order-form/accessories.scss";
+@import "blocks/order-form/user-info.scss";

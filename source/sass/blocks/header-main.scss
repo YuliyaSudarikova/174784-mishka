@@ -1,0 +1,19 @@
+.header-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 490px;
+  width: 100%;
+  background: #fbfbfb url("/img/hero-mobile@1x.jpg") no-repeat center;
+  border: 1px solid grey;
+}
+
+.header-main__caption {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 30px;
+  color: $black;
+}
+
+// .header-main__article {
+// }

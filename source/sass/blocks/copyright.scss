@@ -1,0 +1,24 @@
+.copyright {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright__text {
+  display: block;
+  font-size: 19px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+  color: $black;
+}
+
+.copyright__link {
+  display: flex;
+  align-items: center;
+}
+
+.copyright__logo {
+  width: 28px;
+  height: 34px;
+}
