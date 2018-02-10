@@ -3,12 +3,19 @@ body {
   margin: 0 auto;
   min-width: 320px;
   font-family: "OpenSans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
   color: $text-color;
 }
 
 .content-wrapper {
   width: auto;
   margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .page-caption-block {
